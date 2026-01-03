@@ -1,0 +1,17 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller folders
+build/
+dist/
+*.spec
+
+# Local environments
+venv/
+.env
+
+# Project specific results
+path_results.txt
+horizon_script.txt
