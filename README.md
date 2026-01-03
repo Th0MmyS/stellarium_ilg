@@ -1,4 +1,7 @@
-# 360° Polar Horizon Mapper
+# 360° Polar Horizon Mapper (Beta)
+
+> [!WARNING]
+> **Beta Software:** This tool is currently in active development. Features and coordinate math may be subject to refinement. Please verify your exported data before using it in critical astronomy sessions.
 
 A specialized desktop utility for tracing horizons and paths from 360° equirectangular panoramas. By warping the panorama into a circular **Polar Projection**, this tool eliminates the "seam" issues found in rectangular editors and ensures mathematically consistent coordinate exports for software like Stellarium and N.I.N.A.
 
@@ -6,7 +9,7 @@ A specialized desktop utility for tracing horizons and paths from 360° equirect
 ![360 Panorama Example](images/background.png)
 
 > [!IMPORTANT]
-> **Image Preparation:** Before loading, ensure your equirectangular panorama is centered on **True North**. The vertical center line of your image ($x = width/2$) must correspond to 0° Azimuth.
+> **Image Preparation:** Before loading, ensure your equirectangular panorama is centered on **True North**. The vertical center line of your image ($x = width/2$) must correspond to 0° Azimuth. If your image is not centered, the exported coordinates will be offset.
 
 ## 🚀 Key Features
 
